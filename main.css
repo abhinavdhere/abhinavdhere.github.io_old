@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	background-image: url("file:///abhinav/Projects/Technovation Spot/space.jpg");
+	background-image: url("https://github.com/abhinavdhere/abhinavdhere.github.io/blob/master/space.jpg");
     height: 100%;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@ body {
 
 .jumbotron{
 	height:500px;
-	background-image: url("file:///abhinav/Projects/Technovation Spot/elec_comp.jpg");
+	background-image: url("https://github.com/abhinavdhere/abhinavdhere.github.io/blob/master/elec_comp.jpg");
 	background-repeat: no-repeat;
 }
 
