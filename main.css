@@ -21,7 +21,7 @@ body {
 
 .jumbotron{
 	height:500px;
-	background-image: url("https://raw.githubusercontent.com/abhinavdhere/abhinavdhere.github.io/master/elec_comp.jpg");
+	background-image: url("../elec_comp.jpg");
 	background-repeat: no-repeat;
 }
 
