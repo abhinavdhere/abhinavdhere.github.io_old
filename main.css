@@ -1,0 +1,54 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+	background-image: url("file:///abhinav/Projects/Technovation Spot/space.jpg");
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav a{
+	font-size:11px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom:14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+.jumbotron{
+	height:500px;
+	background-image: url("file:///abhinav/Projects/Technovation Spot/elec_comp.jpg");
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1{
+	color: #6600FF;
+	font-size:48px;
+	font-family: 'Dancing Script', handwriting;
+	font-weight: bold;
+	position:relative;
+	left:35px;
+	top:0px;
+}
+
+.jumbotron p{
+	font-family: 'Courgette', handwriting;
+	font-size: 22px;
+	position:relative;
+	left:375px;
+}
+
+
+.nav li{
+	display:inline;
+}
+
+.footer {
+	position: relative;
+	left:400px;
+	color:black;
+}
