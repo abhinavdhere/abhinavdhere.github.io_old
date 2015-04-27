@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	background-image: url("http://abhinavdhere.github.io/space.jpg");
+	background-image: url("http://abhinavdhere.github.io/Images/space.jpg");
     height: 100%;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@ body {
 
 .jumbotron{
 	height:500px;
-	background-image: url("http://abhinavdhere.github.io/elec_comp.jpg");
+	background-image: url("http://abhinavdhere.github.io/Images/elec_comp.jpg");
 	background-repeat: no-repeat;
 }
 
