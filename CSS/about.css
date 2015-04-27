@@ -1,0 +1,96 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+	background-image: url("http://abhinavdhere.github.io/images/space.jpg");
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav a{
+	font-size:11px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom:14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+.jumbotron{
+	height:500px;
+	background-image: url("http://abhinavdhere.github.io/images/about_backg.jpg");
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1{
+	color: #6600FF;
+	font-size:48px;
+	font-family: 'Indie Flower', handwriting; 
+	font-weight: bold;
+	position:relative;
+	left:35px;
+	top:0px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    position:relative;
+    left: 30px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+
+.jumbotron p{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
+	left:35px;
+}
+
+
+.nav li{
+	display:inline;
+}
+
+.footer {
+	position: relative;
+	top:20px;
+	left:500px;
+	color:black;
+}
+
+.footer a{
+	color: black;
+}
