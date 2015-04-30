@@ -1,0 +1,59 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+	background-image: url("http://abhinavdhere.github.io/Images/space.jpg");
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav a{
+	font-size:11px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom:14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+.jumbotron{
+	height:500px;
+	background-image: url("http://abhinavdhere.github.io/Images/about_backg.jpg");
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1{
+	color: #6600FF;
+	font-size:48px;
+	font-family: 'Indie Flower', handwriting; 
+	font-weight: bold;
+	font-style: italic;
+	position:relative;
+	left:300px;
+	top:20px;
+}
+
+
+.nav li{
+	display:inline;
+}
+
+.container li{
+	display: inline;
+	position: relative;
+	top:50px;
+}
+
+.footer {
+	position: relative;
+	top:20px;
+	left:350px;
+	color:black;
+}
+
+.footer a{
+	color: black;
+}
