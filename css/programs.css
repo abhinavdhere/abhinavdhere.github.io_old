@@ -1,12 +1,10 @@
 html {
-    overflow: hidden;
     height: 100%;
 }
 
 body {
+	overflow: auto;
 	background-image: url("http://abhinavdhere.github.io/Images/space.jpg");
-    height: 100%;
-    overflow: hidden;
 }
 
 .nav a{
@@ -20,9 +18,10 @@ body {
 }
 
 .jumbotron{
-	height:500px;
+	height:600px;
 	background-image: url("http://abhinavdhere.github.io/Images/about_backg.jpg");
 	background-repeat: no-repeat;
+	margin-bottom: 20px;
 }
 
 .jumbotron h1{
@@ -35,42 +34,10 @@ body {
 	top:0px;
 }
 
-blockquote {
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
-    width: 500px;
-    margin: 0.25em 0;
-    padding: 0.35em 40px;
-    line-height: 1.45;
-    position: relative;
-    color: #383838;
+.jumbotron img{
+	position: relative;
+	left: 100px;
 }
-
-blockquote:before {
-    display: block;
-    padding-left: 10px;
-    content: "\201C";
-    font-size: 80px;
-    position: absolute;
-    left: -20px;
-    top: -20px;
-    color: #7a7a7a;
-}
-
-blockquote cite {
-    color: #999999;
-    font-size: 14px;
-    display: block;
-    margin-top: 5px;
-    position:relative;
-    left: 30px;
-}
-
-blockquote cite:before {
-    content: "\2014 \2009";
-}
-
 
 .jumbotron p{
 	font-size: 16px;
@@ -90,9 +57,10 @@ blockquote cite:before {
 
 .footer {
 	position: relative;
-	top:20px;
+	margin-top: -180px; /* negative value of footer height */
 	left:500px;
 	color:black;
+	clear: both;
 }
 
 .footer a{
